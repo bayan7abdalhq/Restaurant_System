@@ -165,49 +165,49 @@
             </Pane>
             <Pane layoutX="-7.0" layoutY="90.0" prefHeight="689.0" prefWidth="1306.0" style="-fx-background-color: FFFFFF;">
                <children>
-                  <TextField layoutX="133.0" layoutY="78.0" prefHeight="51.0" prefWidth="145.0" promptText="Add Table" style="-fx-background-color: FFFFFF;" text="Add Table">
-                     <font>
-                        <Font size="24.0" />
-                     </font>
-                  </TextField>
-                  <TextField layoutX="128.0" layoutY="188.0" style="-fx-background-color: FFFFFF;" text="Table No">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </TextField>
-                  <TextField layoutX="365.0" layoutY="188.0">
+                  <TextField layoutX="430.0" layoutY="188.0">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </TextField>
-                  <TextField layoutX="128.0" layoutY="258.0" style="-fx-background-color: FFFFFF;" text="Number of chairs">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </TextField>
-                  <TextField layoutX="365.0" layoutY="264.0">
+                  <TextField layoutX="431.0" layoutY="264.0">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </TextField>
-                  <TextField layoutX="128.0" layoutY="330.0" style="-fx-background-color: FFFFFF;" text="Location in the restaurant">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </TextField>
-                  <TextField layoutX="365.0" layoutY="330.0">
+                  <TextField layoutX="431.0" layoutY="330.0">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </TextField>
-                  <Button fx:id="backed_btn" layoutX="56.0" layoutY="91.0" mnemonicParsing="false" style="-fx-background-color: FF6600;" text="backed" textFill="WHITE" />
-                  <Button fx:id="addtable_btn" layoutX="128.0" layoutY="408.0" mnemonicParsing="false" style="-fx-background-color: FF6600;" text="Add Table" textFill="WHITE">
+                  <Button fx:id="backed_btn" layoutX="56.0" layoutY="91.0" mnemonicParsing="false" onAction="#onclickbacked" style="-fx-background-color: FF6600;" text="backed" textFill="WHITE" />
+                  <Button fx:id="addtable_btn" layoutX="128.0" layoutY="408.0" mnemonicParsing="false" onAction="#onclickaddtablesuccessfully" style="-fx-background-color: FF6600;" text="Add Table" textFill="WHITE">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Button>
                   <Line endX="654.5999755859375" layoutX="239.0" layoutY="240.0" startX="-100.0" stroke="#ff6600" />
                   <Line endX="657.7999267578125" layoutX="239.0" layoutY="315.0" startX="-100.0" stroke="#ff6600" />
+                  <Text layoutX="143.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Table" wrappingWidth="132.99999999999997">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="128.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Table No" wrappingWidth="119.19998168945312">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="128.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of chairs" wrappingWidth="199.99999999999997">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="128.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location in the restaurant" wrappingWidth="300.0">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
                </children></Pane>
          </children>
       </Pane>

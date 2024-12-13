@@ -171,7 +171,7 @@
                         <Font name="System Bold" size="24.0" />
                      </font>
                   </Text>
-                  <Button fx:id="addtable_btn" layoutX="1120.0" layoutY="30.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="120.0" style="-fx-background-radius: 14; -fx-background-color: FF6600;" text="Add Table" textFill="WHITE" />
+                  <Button fx:id="addtable_btn" layoutX="1120.0" layoutY="30.0" onAction="#onclickaddtable" mnemonicParsing="false" prefHeight="35.0" prefWidth="120.0" style="-fx-background-radius: 14; -fx-background-color: FF6600;" text="Add Table" textFill="WHITE" />
                   <TableView layoutX="177.0" layoutY="143.0" prefHeight="445.0" prefWidth="751.0">
                      <columns>
                         <TableColumn prefWidth="52.800018310546875" text="No" />
