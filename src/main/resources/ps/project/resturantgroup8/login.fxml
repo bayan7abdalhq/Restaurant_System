@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ffffff; -fx-border-radius: 1; -fx-border-color: 000000;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ffffff; -fx-border-radius: 1; -fx-border-color: 000000;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ps.project.resturantgroup8.LoginController">
    <children>
       <ImageView fitHeight="213.0" fitWidth="200.0" layoutX="343.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -27,7 +27,7 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <TextField layoutX="76.0" layoutY="152.0" prefHeight="26.0" prefWidth="179.0" style="-fx-background-radius: 4; -fx-border-color: #000000; -fx-border-radius: 4;" />
+      <TextField fx:id="username" layoutX="76.0" layoutY="152.0" prefHeight="26.0" prefWidth="179.0" style="-fx-background-radius: 4; -fx-border-color: #000000; -fx-border-radius: 4;" />
       <Text layoutX="83.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do not have an account?" />
       <Label layoutX="75.0" layoutY="191.0">
          <font>
@@ -42,7 +42,7 @@
       </Button>
       <Text layoutX="77.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
       <Text layoutX="77.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-      <Button fx:id="login" layoutX="77.0" layoutY="306.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="178.0" style="-fx-background-color: #FF6600; -fx-background-radius: 4;" text="LOGIN" textFill="WHITE" />
-      <PasswordField layoutX="75.0" layoutY="208.0" prefHeight="26.0" prefWidth="181.0" style="-fx-background-radius: 4; -fx-border-color: #000000; -fx-border-radius: 4;" />
+      <Button fx:id="loginbtn" layoutX="77.0" layoutY="306.0" mnemonicParsing="false" onAction="#clicklogin" prefHeight="26.0" prefWidth="178.0" style="-fx-background-color: #FF6600; -fx-background-radius: 4;" text="LOGIN" textFill="WHITE" />
+      <PasswordField fx:id="password" layoutX="75.0" layoutY="208.0" prefHeight="26.0" prefWidth="181.0" style="-fx-background-radius: 4; -fx-border-color: #000000; -fx-border-radius: 4;" />
    </children>
 </AnchorPane>
